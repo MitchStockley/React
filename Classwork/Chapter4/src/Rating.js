@@ -4,8 +4,8 @@ import { IoIosStar, IoIosStarOutline } from 'react-icons/io'
 class Rating extends Component {
     constructor(props) {
         super(props);
-        this.state = { rating: this.props.rating };
-        {this.props.numOfReviews}
+        this.state = { rating: this.props.rating }
+        {this.props.numOfReviews};
 
 
     }
